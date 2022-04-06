@@ -1,0 +1,259 @@
+inherited Interface_Windows: TInterface_Windows
+  Caption = 'Minecraft Recipe Builder'
+  ClientHeight = 409
+  ClientWidth = 1418
+  DesignerMasterStyle = 0
+  inherited Label1: TLabel
+    Position.Y = 280.000000000000000000
+  end
+  inherited CraftingSlot1: TPopupBox
+    Position.Y = 80.000000000000000000
+  end
+  inherited ItemIDList: TListBox
+    Viewport.Width = 233.000000000000000000
+    Viewport.Height = 249.000000000000000000
+  end
+  inherited CraftingSlot2: TPopupBox
+    Position.Y = 80.000000000000000000
+  end
+  inherited CraftingSlot3: TPopupBox
+    Position.Y = 80.000000000000000000
+  end
+  inherited CraftingSlot4: TPopupBox
+    Position.Y = 144.000000000000000000
+  end
+  inherited CraftingSlot5: TPopupBox
+    Position.Y = 144.000000000000000000
+  end
+  inherited CraftingSlot6: TPopupBox
+    Position.Y = 144.000000000000000000
+  end
+  inherited CraftingSlot7: TPopupBox
+    Position.Y = 208.000000000000000000
+  end
+  inherited CraftingSlot8: TPopupBox
+    Position.Y = 208.000000000000000000
+  end
+  inherited CraftingSlot9: TPopupBox
+    Position.Y = 208.000000000000000000
+  end
+  inherited CreateJsonButton: TButton
+    Position.Y = 360.000000000000000000
+  end
+  inherited CraftingGridText: TLabel
+    Position.Y = 56.000000000000000000
+  end
+  inherited ResultSlot: TPopupBox
+    Position.Y = 296.000000000000000000
+  end
+  inherited ResultLabel: TLabel
+    Position.Y = 272.000000000000000000
+  end
+  inherited FileNameEdit: TEdit
+    Position.Y = 328.000000000000000000
+  end
+  inherited JsonFileNameLabel: TLabel
+    Position.Y = 264.000000000000000000
+  end
+  inherited CountEdit: TEdit
+    Text = '1'
+    Position.Y = 312.000000000000000000
+    Size.Width = 33.000000000000000000
+  end
+  inherited CountLabel: TLabel
+    Position.Y = 288.000000000000000000
+    Size.Width = 33.000000000000000000
+  end
+  inherited ShapedTitle: TLabel
+    Position.Y = 8.000000000000000000
+  end
+  inherited Panel1: TPanel
+    Position.X = 928.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Height = 385.000000000000000000
+  end
+  inherited Panel2: TPanel
+    Position.X = 528.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 401.000000000000000000
+    Size.Height = 1.000000000000000000
+    Size.PlatformDefault = False
+  end
+  inherited Panel3: TPanel
+    Position.X = 16.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 400.000000000000000000
+    Size.Height = 1.000000000000000000
+    Size.PlatformDefault = False
+  end
+  inherited Panel4: TPanel
+    Position.X = 16.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 1.000000000000000000
+    Size.Height = 385.000000000000000000
+    Size.PlatformDefault = False
+  end
+  inherited Panel5: TPanel
+    Position.X = 16.000000000000000000
+    Position.Y = 400.000000000000000000
+    Size.Width = 912.000000000000000000
+    Size.Height = 1.000000000000000000
+    Size.PlatformDefault = False
+  end
+  inherited Panel6: TPanel
+    Position.X = 936.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 1.000000000000000000
+    Size.Height = 385.000000000000000000
+    Size.PlatformDefault = False
+  end
+  inherited ShapelessItemIDList: TListBox
+    Position.X = 944.000000000000000000
+    Position.Y = 80.000000000000000000
+    Size.Width = 233.000000000000000000
+    Size.Height = 249.000000000000000000
+    Size.PlatformDefault = False
+    OnItemClick = ShapelessItemIDListItemClick
+    Viewport.Width = 233.000000000000000000
+    Viewport.Height = 249.000000000000000000
+  end
+  inherited ShapelessItemInputEdit: TEdit
+    Position.X = 944.000000000000000000
+    Size.Width = 201.000000000000000000
+    Size.PlatformDefault = False
+  end
+  inherited ShapelessAddButton: TButton
+    Position.X = 1152.000000000000000000
+    Position.Y = 48.000000000000000000
+    OnClick = ShapelessAddButtonClick
+  end
+  inherited ShapelessSlot1: TPopupBox
+    Position.X = 1192.000000000000000000
+    Size.Width = 200.000000000000000000
+    OnClick = ShapelessSlot1Click
+  end
+  inherited ShapelessTitle: TLabel
+    Position.X = 944.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 449.000000000000000000
+    Size.PlatformDefault = False
+  end
+  inherited ShapelessSlotEX: TLabel
+    Position.X = 1192.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 201.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Items included in the recipe (Leave blank for nothing)'
+  end
+  inherited ShapelessSlot2: TPopupBox
+    Position.Y = 136.000000000000000000
+    OnClick = ShapelessSlot2Click
+  end
+  inherited ShapelessSlot3: TPopupBox
+    Position.X = 1192.000000000000000000
+    Position.Y = 160.000000000000000000
+    OnClick = ShapelessSlot3Click
+  end
+  inherited ShapelessSlot4: TPopupBox
+    Position.X = 1192.000000000000000000
+    Position.Y = 184.000000000000000000
+    OnClick = ShapelessSlot4Click
+  end
+  inherited ShapelessSlot5: TPopupBox
+    Position.X = 1192.000000000000000000
+    Position.Y = 208.000000000000000000
+    OnClick = ShapelessSlot5Click
+  end
+  inherited ShapelessSlot6: TPopupBox
+    Position.X = 1192.000000000000000000
+    Position.Y = 232.000000000000000000
+    OnClick = ShapelessSlot6Click
+  end
+  inherited ShapelessSlot7: TPopupBox
+    Position.X = 1192.000000000000000000
+    Position.Y = 256.000000000000000000
+    OnClick = ShapelessSlot7Click
+  end
+  inherited ShapelessSlot8: TPopupBox
+    Position.X = 1192.000000000000000000
+    Position.Y = 280.000000000000000000
+    OnClick = ShapelessSlot8Click
+  end
+  inherited ShapelessSlot9: TPopupBox
+    Position.X = 1192.000000000000000000
+    Position.Y = 304.000000000000000000
+    OnClick = ShapelessSlot9Click
+  end
+  inherited ShapelessResultSlot: TPopupBox
+    Position.X = 1192.000000000000000000
+    Position.Y = 360.000000000000000000
+    Size.Width = 200.000000000000000000
+  end
+  inherited Label2: TLabel
+    StyledSettings = [Family, Size, Style, FontColor, Other]
+    Position.X = 1192.000000000000000000
+    Position.Y = 336.000000000000000000
+    Size.Width = 201.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Result/Recipe Ouput'
+  end
+  inherited ShapelessCount: TEdit
+    Text = '1'
+    Position.X = 1152.000000000000000000
+    Position.Y = 360.000000000000000000
+    Size.Width = 33.000000000000000000
+    Size.PlatformDefault = False
+  end
+  inherited Label3: TLabel
+    Position.X = 1152.000000000000000000
+    Position.Y = 336.000000000000000000
+    Size.Width = 33.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Count'
+  end
+  inherited ShapelessCreateJsonButton: TButton
+    Position.X = 952.000000000000000000
+    Position.Y = 360.000000000000000000
+    Size.Width = 185.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Create Json Recipe File (Shapeless)'
+    OnClick = ShapelessCreateJsonButtonClick
+  end
+  inherited Panel7: TPanel
+    Position.X = 936.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 177.000000000000000000
+    Size.Height = 1.000000000000000000
+    Size.PlatformDefault = False
+  end
+  inherited Panel8: TPanel
+    Position.X = 1216.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 185.000000000000000000
+    Size.Height = 1.000000000000000000
+    Size.PlatformDefault = False
+  end
+  inherited Panel9: TPanel
+    Position.X = 1400.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 1.000000000000000000
+    Size.Height = 385.000000000000000000
+    Size.PlatformDefault = False
+  end
+  inherited Panel10: TPanel
+    Position.X = 936.000000000000000000
+    Position.Y = 400.000000000000000000
+    Size.Width = 464.000000000000000000
+    Size.Height = 1.000000000000000000
+    Size.PlatformDefault = False
+  end
+  inherited ShapelessJsonFileName: TEdit
+    Text = 'Json File Name (E.g. iron_dust)'
+    Position.X = 952.000000000000000000
+    Position.Y = 336.000000000000000000
+    Size.Width = 185.000000000000000000
+    Size.PlatformDefault = False
+  end
+end
