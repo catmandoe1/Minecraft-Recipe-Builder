@@ -1,0 +1,16 @@
+inherited Interface_Surface: TInterface_Surface
+  ClientHeight = 1920
+  ClientWidth = 1080
+  DesignerMasterStyle = 0
+  inherited ItemIDList: TListBox
+    Viewport.Width = 233.000000000000000000
+    Viewport.Height = 249.000000000000000000
+  end
+  inherited Panel1: TPanel
+    Position.Y = -112.000000000000000000
+  end
+  inherited ShapelessItemIDList: TListBox
+    Viewport.Width = 200.000000000000000000
+    Viewport.Height = 200.000000000000000000
+  end
+end
