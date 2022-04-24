@@ -6,7 +6,7 @@ This Program makes it easy to create recipes files for modding in minecraft java
 The Recipe builder will create a .json file that you add into your recipe package located in "src.main.resources.assets.modid.recipes"
 
 # How to work it
-A little walk through of how to ues the recipe builder
+A little walk through of how to use the recipe builder
 
 ## Basic
 **1. Add item ids into the item id list by typing in the input box and clicking _Add_.**
