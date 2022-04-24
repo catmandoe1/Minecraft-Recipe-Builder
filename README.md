@@ -78,7 +78,7 @@ Make sure to change it over to advanced when creating the file.
 
 
 ## Format
-The recipe builder does all of the formatting work automatically so its just some imformation on how recipes are made.
+The recipe builder does all of the formatting work automatically so its just some information on how recipes are made.
 
 ### Shaped
 Shaped is the standard recipe style meaning that the items in the crafting table have to be in a specific order and shape to craft a item in varing amounts.
