@@ -109,7 +109,7 @@ The format that this type of recipe style is:
 ### Shapeless
 Shapeless is the other type of recipe style that is not used as much but is handy with small recipes. 
 They are essentialy just a list of what is needed to be in the crafting table to make the result. 
-The items needed can be in any solt and in any shape to craft the item.
+The items needed can be in any slot and in any shape to craft the item.
 *(Adding 2 of the same ingredients will increase the count needed of that item)*
 
 The format that this type of recipe style is:
