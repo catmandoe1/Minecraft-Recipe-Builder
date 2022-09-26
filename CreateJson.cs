@@ -42,6 +42,14 @@ namespace MC_Recipe_Builder {
         public bool HasBottom() {
             return HasCheck(6);
         }
+        public String CheckRow(List<CreateDataItem> input, int row, int keyNum) {
+            if (input[row].Key == ' ' & input[row + 3].Key == ' ' & input[row + 6].Key == ' '/* || input[row].Key == ' ' & input[row + 3].Key == ' ' || input[row + 3].Key == ' ' & input[row + 6].Key == ' '*/) {
+                return "";
+            } else {
+                return Char.ToString(input[keyNum].Key);
+            }
+        }
+        
     }
     internal class CreateDataItem {
         public string Name { get; set; }
@@ -154,19 +162,20 @@ namespace MC_Recipe_Builder {
 
             string shapetext = "";
             if (data.HasTop()) {
-                shapetext = $"{shapetext}\"{data.Data[0].Key}{data.Data[1].Key}{data.Data[2].Key}\"";
+                shapetext = $"{shapetext}\"{data.CheckRow(data.Data, 0 ,0)}{data.CheckRow(data.Data, 1, 1)}{data.CheckRow(data.Data, 2, 2)}\"";
                 if (data.HasMiddle() || data.HasBottom()) { 
                     shapetext += ",";
                 }
             }
             if (data.HasMiddle() || data.HasBottom()) {
-                shapetext = $"{shapetext}\"{data.Data[3].Key}{data.Data[4].Key}{data.Data[5].Key}\"";
+                shapetext = $"{shapetext}\"{data.CheckRow(data.Data, 0, 3)}{data.CheckRow(data.Data, 1, 4)}{data.CheckRow(data.Data, 2, 5)}\"";
                 if (data.HasBottom()) {
                     shapetext += ",";
                 }
             }
             if (data.HasBottom()) {
-                shapetext = $"{shapetext}\"{data.Data[6].Key}{data.Data[7].Key}{data.Data[8].Key}\""; ;
+                //shapetext = $"{shapetext}\"{data.Data[6].Key}{data.Data[7].Key}{data.Data[8].Key}\""; ;
+                shapetext = $"{shapetext}\"{data.CheckRow(data.Data, 0, 6)}{data.CheckRow(data.Data, 1, 7)}{data.CheckRow(data.Data, 2, 8)}\"";
             }
 
 

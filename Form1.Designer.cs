@@ -991,7 +991,7 @@
             this.Controls.Add(this.gbIDs);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MCRB";
-            this.Text = "Minecraft Recipe Builder 2.0";
+            this.Text = "Minecraft Recipe Builder 2.1.0";
             this.Load += new System.EventHandler(this.MCRB_Load);
             this.ShapeGroup.ResumeLayout(false);
             this.ShapeGroup.PerformLayout();
